@@ -1,5 +1,6 @@
 # derive the public key from the private key:
 # The public key is the resulting point of the scalar multiplication or sG
+# secret: private key, g: generator point
 
 from pycoin.ecdsa import generator_secp256k1 as g
 secret = 7
